@@ -20,14 +20,8 @@ Example:
   all:
 	 javac program/*.java
 	 jar -cmf manifest.mf jarFileName.jar program
-	 @echo "+ to run type: java -jar Hasher.jar 10 2 10"
-	 @echo "+ to run with command line arguments, simply append them to the line above"
-	 @echo "Here Size is:10, HashFunction:2 & No of runs:10. Pass them accordingly"  
+	 @echo "+ to run type: java -jar jarFileName.jar"
+	 @echo "+ to run with command line arguments, simply append them to the line above" 
 ```
 
--m=FILE or --manifest=FILE
-Includes the manifest information from the given manifest file.
-
--c or --create
-Creates the archive.
-
+ 
